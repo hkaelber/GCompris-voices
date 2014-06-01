@@ -1,10 +1,17 @@
 #!/bin/bash
 #
-# generate_rcc.sh
+# generate_voices_rcc.sh
 # 
 # Copyright (C) 2014 Holger Kaelberer
 # 
-# Generates Qt binary resource files (.rcc) for the locales.
+# Generates Qt binary resource files (.rcc) for voices locales.
+#
+# Usage:
+# cd git/GCompris-voices/
+# generate_voices_rcc.sh
+#
+# Results will be written to $PWD/.rcc/ which is supposed be synced to the
+# upstream location.
 # 
 
 QRC_DIR="."
